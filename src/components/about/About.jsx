@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div style={{marginTop: '70px', minHeight: 'calc(100vh - 250px)'}}>
+    <div class="page container">
       <p>
         The North Carolina Muslim Festival is sponsored by the Self-Help
         Information Network and Exchange (S.H.I.N.E.). Founded by Robyn
