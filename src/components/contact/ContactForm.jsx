@@ -42,7 +42,7 @@ const ContactForm = () => {
     e.target.reset();
   };
   return (
-    <form onSubmit={sendEmail}>
+    <form onSubmit={() => console.log('sending')}>
       <label>Name</label>
       <input type="text" name="user_name" />
       <label>Email</label>

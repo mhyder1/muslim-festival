@@ -1,4 +1,4 @@
-const Section = ({ isScroll = false, imgClass, txtClass, img, children }) => {
+const Section = ({ isScroll = false, imgClass, txtClass, img, title, children }) => {
   return (
     <section id={isScroll ? "scroll" : ""}>
       <div class="container px-5">
@@ -10,7 +10,7 @@ const Section = ({ isScroll = false, imgClass, txtClass, img, children }) => {
           </div>
           <div class={txtClass}>
             <div class="p-5">
-              <h2 class="display-4">For those about to rock...</h2>
+              <h2 class="display-4">{title}</h2>
               {children}
             </div>
           </div>

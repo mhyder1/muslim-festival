@@ -3,8 +3,8 @@ const Header = () => {
     <header class="masthead text-center text-white">
       <div class="masthead-content">
         <div class="container px-5">
-          <h1 class="masthead-heading mb-0">One Page Wonder</h1>
-          <h2 class="masthead-subheading mb-0">Will Rock Your Socks Off</h2>
+          <h1 class="masthead-heading mb-0">NC Muslim Festival</h1>
+          <h2 class="masthead-subheading mb-0"> Celebrate Diversity, Embrace Unity</h2>
           <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">
             Learn More
           </a>

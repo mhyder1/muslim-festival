@@ -154,7 +154,9 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  /* background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%); */
+  background-image: url('./assets/greensboro.webp');
+  /* opacity: .5; */
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -166,9 +168,11 @@ header.masthead .masthead-content {
 }
 header.masthead .masthead-content .masthead-heading {
   font-size: 4rem;
+  /* color: rgb(38, 100, 69); */
 }
 header.masthead .masthead-content .masthead-subheading {
   font-size: 2rem;
+  /* color: rgb(38, 100, 69); */
 }
 header.masthead .bg-circle {
   z-index: 0;
@@ -214,7 +218,7 @@ header.masthead .bg-circle-4 {
   }
 }
 
-.btn-primary {
+/* .btn-primary {
   --bs-btn-color: #fff;
   --bs-btn-bg: #ee0979;
   --bs-btn-border-color: #ee0979;
@@ -229,7 +233,7 @@ header.masthead .bg-circle-4 {
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: #ee0979;
   --bs-btn-disabled-border-color: #ee0979;
-}
+} */
 
 hr {
   margin: 1rem 0;

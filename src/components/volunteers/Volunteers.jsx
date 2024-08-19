@@ -5,7 +5,7 @@ const Volunteers = () => {
         class="page-title"
         style={{ fontFamily: "DIN Neuzeit Grotesk LT W01 BdCn" }}
       >
-        Volunteers
+        Volunteer
       </h1>
       <p>
         <a href="https://form.jotform.com/222664757551160" target="_blank">
