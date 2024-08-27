@@ -1,45 +1,83 @@
+import vendor_1 from "../../assets/vendor_1.jpg";
+import vendor_2 from "../../assets/vendor_2.jpg";
+import vendor_3 from "../../assets/vendor_3.jpg";
+
 const Vendors = () => {
   return (
-    <div class="page container">
-      <h1
-        class="page-title"
-        style={{ fontFamily: "DIN Neuzeit Grotesk LT W01 BdCn" }}
-      >
-        Vendors
-      </h1>
-      <p>
-        We invite you to participate as a vendor by bringing your business to
-        the festival. Vendor fees vary based on food trucks, food tables, and
-        merchandise tables (non-food items). Click one of the buttons below and
-        fill out the application.
-      </p>
-      <ul>
-        <li>
-          <a href="https://form.jotform.com/222685597504163" target="_blank">
-            Food Table
-          </a>
-        </li>
-        <li>
-          <a href="https://form.jotform.com/222684634140150" target="_blank">
-            Food Truck
-          </a>
-        </li>
-        <li>
-          <a href="https://form.jotform.com/222684960721157" target="_blank">
-            Merchandise
-          </a>
-        </li>
-        <li>
-          <a href="https://form.jotform.com/222664757551160" target="_blank">
-            Volunteer
-          </a>
-        </li>
-        <li>
-          <a href="https://form.jotform.com/240618023385150" target="_blank">
-            Exhibitor (no products to sell)
-          </a>
-        </li>
-      </ul>
+    <div class="page container page-flex">
+      <div class="page-container">
+        <h1
+          class="page-title"
+          style={{ fontFamily: "DIN Neuzeit Grotesk LT W01 BdCn" }}
+        >
+          Vendors
+        </h1>
+        <p class="page-text">
+          We invite you to participate as a vendor by bringing your business to
+          the festival. Vendor fees vary based on food trucks, food tables, and
+          merchandise tables (non-food items). Click one of the buttons below
+          and fill out the application before the deadline December 31, 2024.
+        </p>
+        <ul
+          style={{
+            listStyle: "none",
+            display: "flex",
+            justifyContent: "space-around",
+            width: "100%",
+          }}
+        >
+          <li>
+            <a
+              href="https://form.jotform.com/222685597504163"
+              target="_blank"
+              class="btn btn-primary btn-sm rounded-pill mt-5"
+            >
+              Food Table
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://form.jotform.com/222684634140150"
+              target="_blank"
+              class="btn btn-primary btn-sm rounded-pill mt-5"
+            >
+              Food Truck
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://form.jotform.com/222684960721157"
+              target="_blank"
+              class="btn btn-primary btn-sm rounded-pill mt-5"
+            >
+              Merchandise
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://form.jotform.com/222664757551160"
+              target="_blank"
+              class="btn btn-primary btn-sm rounded-pill mt-5"
+            >
+              Volunteer
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://form.jotform.com/240618023385150"
+              target="_blank"
+              class="btn btn-primary btn-sm rounded-pill mt-5"
+            >
+              Exhibitor (no products to sell)
+            </a>
+          </li>
+        </ul>
+        <div style={{display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap', gap: '2rem', marginTop: '2rem'}}>
+            <img src={vendor_1} alt="vendor 1" style={{width: '50%'}}/>
+            <img src={vendor_2} alt="vendor 2" style={{width: '50%'}}/>
+            <img src={vendor_3} alt="vendor 3" style={{width: '50%'}}/>
+        </div>
+      </div>
     </div>
   );
 };

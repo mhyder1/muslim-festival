@@ -235,6 +235,23 @@ header.masthead .bg-circle-4 {
   --bs-btn-disabled-border-color: #ee0979;
 } */
 
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #266445;
+  --bs-btn-border-color: #266445;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #1d4e36;
+  --bs-btn-hover-border-color: #1d4e36;
+  --bs-btn-focus-shadow-rgb: 241, 46, 141;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #1d4e36;
+  --bs-btn-active-border-color: #1d4e36;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #266445;
+  --bs-btn-disabled-border-color: #266445;
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;

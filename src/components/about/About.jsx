@@ -1,16 +1,15 @@
+import shine_logo from '../../assets/shine_logo.jpg'
+
 const About = () => {
   return (
-    <div class="page container">
-      <p>
+    <div class="page container" style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+      <img src={shine_logo} alt="S.H.I.N.E logo" style={{width: '50%'}} />
+      <p class="page-text">
         The North Carolina Muslim Festival is sponsored by the Self-Help
         Information Network and Exchange (S.H.I.N.E.). Founded by Robyn
-        Saleem-Abdusamad, S.H.I.N.E. is a registered 501(c)3 non-profit
-        organization that provides educational programs and interactive
-        activities for the community designed to build cultural understanding
-        and unity while empowering through education, faith, service, and
-        humanity.
+        Saleem-Abdusamad, S.H.I.N.E. is a registered non-profit organization with a mission to empower, uplift, and unite communities by providing educational programs and events that foster lifelong learning, personal growth, meaningful relationships, and community engagement.
       </p>
-      <p>
+      <p class="page-text">
         On April 29, 2023, S.H.I.N.E. successfully hosted the first annual NC
         Muslim Festival in Center City Park - downtown Greensboro, NC. Over
         273,000 Muslims reside in North Carolina and something of this magnitude
@@ -18,7 +17,7 @@ const About = () => {
         location for this event as it is centrally located between two of our
         largest cities - Charlotte and Raleigh-Durham.
       </p>
-      <p>
+      <p class="page-text">
         The NC Muslim Festival attracted over 1,000 people statewide. The
         purpose of this event is to promote education, cultural understanding,
         unity, and humanity. We do so by helping to build bridges with community
@@ -34,7 +33,7 @@ const About = () => {
         of diverse representation that filled the park along with peaceful,
         loving vibes from all.
       </p>
-      <p>
+      <p class="page-text">
         Each year, we hope for the festival to continue to grow and become a
         beacon for the communities to celebrate diversity and embrace unity.
       </p>

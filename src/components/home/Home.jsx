@@ -4,14 +4,18 @@ import Section from "./Section";
 import img1 from "../../assets/01.jpg";
 import img2 from "../../assets/02.jpg";
 import img3 from "../../assets/03.jpg";
+import entertainment from '../../assets/entertainment.jpg'
 
 const Home = () => {
   return (
     <>
       <Header />
+      <div id="scroll" style={{backgroundColor: "rgb(217 211 191)", display: 'flex', width: '75%', justifyContent: "center", margin: '2rem auto', padding: "1rem"}}>
+        <h2 style={{width: '40%'}}>Get to know your muslim neighbor</h2>
+        <p style={{width: '60%'}}>They are your Medical Professionals, Political Representatives, Educators, Realtors, Lawyers, Financial Advisors, Police Officers, Firemen, Chaplains, Supervisors, Chef, Judges, Journalists, General Contractors, Event Planners, Pilots, Engineers, Entrepreneurs, Your Favorite Athletes, Authors, Musicians, Poets, Actors/Actresses, Models and/or Comedians, Friends, Co-workers, Family, and More!</p>
+      </div>
       <Section
-        isScroll={true}
-        img={img1}
+        img={entertainment}
         imgClass="col-lg-6 order-lg-2"
         txtClass="col-lg-6 order-lg-1"
         title="Entertainment Lineup"

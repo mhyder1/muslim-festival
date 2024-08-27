@@ -26,3 +26,31 @@
   border: 1px solid #ffa500;
   color: #ffffff;
 }
+
+.page-text {
+  letter-spacing: 0.05rem;
+  font-size: 1.125rem;
+  line-height: 1.6rem;
+  color: rgb(38, 100, 69);
+}
+
+/* rgb(38,100,69) */
+
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Avenir Light";
+  width: 75%;
+}
+
+.large-button {
+  font-family: "DIN Next LT W04 Light";
+}
+
+.page-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
