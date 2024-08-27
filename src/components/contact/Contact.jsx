@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <div class="page container page-flex">
+    <div class="page container page-flex" style={{minHeight: '73.3vh'}}>
       <div class="page-container">
         <h1
           class="page-title"

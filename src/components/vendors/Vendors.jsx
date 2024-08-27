@@ -72,10 +72,10 @@ const Vendors = () => {
             </a>
           </li>
         </ul>
-        <div style={{display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap', gap: '2rem', marginTop: '2rem'}}>
-            <img src={vendor_1} alt="vendor 1" style={{width: '50%'}}/>
-            <img src={vendor_2} alt="vendor 2" style={{width: '50%'}}/>
-            <img src={vendor_3} alt="vendor 3" style={{width: '50%'}}/>
+        <div style={{display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap', gap: '2rem', margin: '2rem 0'}}>
+            <img src={vendor_1} alt="vendor 1" style={{width: '60%'}}/>
+            <img src={vendor_2} alt="vendor 2" style={{width: '60%'}}/>
+            <img src={vendor_3} alt="vendor 3" style={{width: '60%'}}/>
         </div>
       </div>
     </div>

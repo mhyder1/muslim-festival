@@ -1,3 +1,4 @@
+import sponsor_1 from '../../assets/sponsor_1.jpg'
 const Sponsors = () => {
   return (
     <div class="page container page-flex">
@@ -24,6 +25,9 @@ const Sponsors = () => {
         >
           Become a Sponsor
         </a>
+        <div style={{ display: "flex", justifyContent: "center", margin: '2rem 0' }}>
+          <img src={sponsor_1} alt="2023 sponsor 1" style={{width: '75%'}}/>
+        </div>
       </div>
     </div>
   );

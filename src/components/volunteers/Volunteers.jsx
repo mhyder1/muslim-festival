@@ -24,7 +24,7 @@ const Volunteers = () => {
         >
           Volunteer
         </a>
-        <div style={{ display: "flex", justifyContent: "center", marginTop: '2rem' }}>
+        <div style={{ display: "flex", justifyContent: "center", margin: '2rem 0' }}>
           <img src={vol_1} alt="2023 volunteers" style={{width: '75%'}}/>
         </div>
       </div>
