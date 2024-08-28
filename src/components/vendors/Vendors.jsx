@@ -4,7 +4,7 @@ import vendor_3 from "../../assets/vendor_3.jpg";
 
 const Vendors = () => {
   return (
-    <div class="page container page-flex">
+    <div class="page container page-flex" style={{minHeight: '73.3vh'}}>
       <div class="page-container">
         <h1
           class="page-title"
@@ -55,15 +55,6 @@ const Vendors = () => {
           </li>
           <li>
             <a
-              href="https://form.jotform.com/222664757551160"
-              target="_blank"
-              class="btn btn-primary btn-sm rounded-pill mt-5"
-            >
-              Volunteer
-            </a>
-          </li>
-          <li>
-            <a
               href="https://form.jotform.com/240618023385150"
               target="_blank"
               class="btn btn-primary btn-sm rounded-pill mt-5"
@@ -73,9 +64,9 @@ const Vendors = () => {
           </li>
         </ul>
         <div style={{display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap', gap: '2rem', margin: '2rem 0'}}>
-            <img src={vendor_1} alt="vendor 1" style={{width: '60%'}}/>
-            <img src={vendor_2} alt="vendor 2" style={{width: '60%'}}/>
-            <img src={vendor_3} alt="vendor 3" style={{width: '60%'}}/>
+            <img src={vendor_1} alt="vendor 1" style={{width: '30%'}} class="zoom"/>
+            <img src={vendor_2} alt="vendor 2" style={{width: '30%'}} class="zoom"/>
+            <img src={vendor_3} alt="vendor 3" style={{width: '30%'}} class="zoom"/>
         </div>
       </div>
     </div>

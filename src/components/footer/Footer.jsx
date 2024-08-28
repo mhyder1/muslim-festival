@@ -6,7 +6,7 @@ const Footer = () => {
         {/* <ContactForm /> */}
         
         <p class="m-0 text-center text-black small">
-          Copyright &copy; Your Website 2023
+          Copyright <span>&copy;</span> SHINE <span>{new Date().getFullYear()}</span>
         </p>
       </div>
     </footer>

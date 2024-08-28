@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <>
       <Header />
-      <div
+      {/* <div
         id="scroll"
         style={{
           backgroundColor: "rgb(217 211 191)",
@@ -30,15 +30,16 @@ const Home = () => {
           Favorite Athletes, Authors, Musicians, Poets, Actors/Actresses, Models
           and/or Comedians, Friends, Co-workers, Family, and More!
         </p>
-      </div>
+      </div> */}
       <Section
         img={entertainment}
         imgClass="col-lg-6 order-lg-2"
         txtClass="col-lg-6 order-lg-1"
         title="Entertainment Lineup"
+        isScroll={true}
       >
         <p>
-          Seeking talented NC Muslim Artists who would like to audition to
+          Seeking talented NC Muslim artists who would like to audition to
           perform at the 2025 NC Muslim Festival (eg. solo singer or band |
           rapper | spoken word | poetry | musicians - instruments | comedian,
           etc.). Submit a short video (mp4) of your performance to
@@ -73,7 +74,7 @@ const Home = () => {
         <p>
           Take advantage of showcasing your business by vending at the NCMF.
           There are several ways of participating as a vendor: Exhibitor,
-          Merchandise, Food Table or Foot Truck. If interested, complete your
+          Merchandise, Food Table or Food Truck. If interested, complete your
           vendor application before December 31, 2024.
           <Link
             href="/vendors"

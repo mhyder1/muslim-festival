@@ -40,8 +40,9 @@ const About = () => {
         from all.
       </p>
       <p class="page-text">
-        Each year, we hope for the festival to continue to grow and become a
-        beacon for the communities to celebrate diversity and embrace unity.
+        Each time we host the NC Muslim Festival, it is our hope for it to
+        continue to grow and become a beacon for the communities to celebrate
+        diversity and embrace unity.
       </p>
     </div>
   );
