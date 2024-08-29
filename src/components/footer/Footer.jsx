@@ -1,7 +1,7 @@
 import ContactForm from "../contact/ContactForm";
 const Footer = () => {
   return (
-    <footer class="py-5" style={{backgroundColor: 'rgb(217,211,191)'}}>
+    <footer class="py-5" style={{backgroundColor: 'rgb(217,211,191)', position: 'relative', zIndex: '100'}} >
       <div class="container px-5">
         {/* <ContactForm /> */}
         

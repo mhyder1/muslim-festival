@@ -67,3 +67,24 @@
 .zoom:hover {
   transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+
+.bg-video {
+  /* position: absolute; */
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* mask-image: linear-gradient(to top, transparent 0%, black 50%, transparent 100%); */
+  user-select: none;
+  pointer-events: none;
+  /* filter: grayscale(0.8); */
+  aspect-ratio: 16/9;
+}
+
+.iframe-fix {
+  position: relative;
+  z-index: 100;
+  background-color: floralwhite;
+  margin-bottom: 1px;
+}
