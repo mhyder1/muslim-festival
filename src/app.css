@@ -172,7 +172,7 @@ header.masthead .masthead-content .masthead-heading {
   /* color: rgb(38, 100, 69); */
 }
 header.masthead .masthead-content .masthead-subheading {
-  font-size: 2rem;
+  font-size: 3rem;
   /* color: rgb(38, 100, 69); */
 }
 header.masthead .bg-circle {
@@ -215,7 +215,7 @@ header.masthead .bg-circle-4 {
     font-size: 6rem;
   }
   header.masthead .masthead-content .masthead-subheading {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 

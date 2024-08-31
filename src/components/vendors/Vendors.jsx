@@ -4,7 +4,7 @@ import vendor_3 from "../../assets/vendor_3.jpg";
 
 const Vendors = () => {
   return (
-    <div class="page container page-flex" style={{minHeight: '73.3vh'}}>
+    <div class="page container page-flex" style={{minHeight: 'calc(100vh - 117px)'}}>
       <div class="page-container">
         <h1
           class="page-title"
