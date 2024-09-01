@@ -101,6 +101,8 @@
   width: max-content;
   padding: 5px;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .gallery-img {

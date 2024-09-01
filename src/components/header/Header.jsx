@@ -17,13 +17,21 @@ const Header = () => {
             {" "}
             Celebrate Diversity, Embrace Unity
           </h4>
-          <div style={{marginTop: '5em', display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+          <div
+            style={{
+              marginTop: "5em",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+            }}
+          >
             <p class="event-time">
-              Saturday, May 10, 2025, 10:30 am - 6:30 pm
+              <span>Center City Park, downtown Greensboro</span>
+              <span>200 N. Elm Street, Greensboro, NC</span>
             </p>
             <p class="event-time">
-              Center City Park, downtown Greensboro, 200 N. Elm Street,
-              Greensboro, NC
+              <span>Saturday, May 10, 2025</span>
+              <span>10:30 am - 6:30 pm</span>
             </p>
           </div>
 
