@@ -1,13 +1,11 @@
 import sponsor_1 from "../../assets/sponsor_1.jpg";
 import { useEffect } from "preact/hooks";
 const Sponsors = () => {
-  console.log(window.location.hash)
   useEffect(() => {
     const hash = window.location.hash;
     if (hash) {
       const element = document.getElementById(hash.substring(1));
-      console.log(element)
-      if (element) element.scrollIntoView({ behavior: 'smooth' });
+      if (element) element.scrollIntoView({ behavior: 'instant' });
     }
   }, [window.location.hash]);
   return (

@@ -16,7 +16,7 @@ const Vendors = () => {
           We invite you to participate as a vendor by bringing your business to
           the festival. Vendor fees vary based on food trucks, food tables, and
           merchandise tables (non-food items). Click one of the buttons below
-          and fill out the application before the deadline December 31, 2024.
+          and fill out the application before the deadline September 27, 2024.
         </p>
         <ul
           style={{
