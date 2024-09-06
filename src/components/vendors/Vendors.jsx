@@ -4,7 +4,10 @@ import vendor_3 from "../../assets/vendor_3.jpg";
 
 const Vendors = () => {
   return (
-    <div class="page container page-flex" style={{minHeight: 'calc(100vh - 117px)'}}>
+    <div
+      class="page container page-flex"
+      style={{ minHeight: "calc(100vh - 117px)" }}
+    >
       <div class="page-container">
         <h1
           class="page-title"
@@ -24,6 +27,8 @@ const Vendors = () => {
             display: "flex",
             justifyContent: "space-around",
             width: "100%",
+            flexWrap: "wrap",
+            padding: "0",
           }}
         >
           <li>
@@ -63,10 +68,33 @@ const Vendors = () => {
             </a>
           </li>
         </ul>
-        <div style={{display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap', gap: '2rem', margin: '2rem 0'}}>
-            <img src={vendor_1} alt="vendor 1" style={{width: '30%'}} class="zoom"/>
-            <img src={vendor_2} alt="vendor 2" style={{width: '30%'}} class="zoom"/>
-            <img src={vendor_3} alt="vendor 3" style={{width: '30%'}} class="zoom"/>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-around",
+            flexWrap: "wrap",
+            gap: "2rem",
+            margin: "2rem 0",
+          }}
+        >
+          <img
+            src={vendor_1}
+            alt="vendor 1"
+            style={{ width: "30%" }}
+            class="zoom"
+          />
+          <img
+            src={vendor_2}
+            alt="vendor 2"
+            style={{ width: "30%" }}
+            class="zoom"
+          />
+          <img
+            src={vendor_3}
+            alt="vendor 3"
+            style={{ width: "30%" }}
+            class="zoom"
+          />
         </div>
       </div>
     </div>

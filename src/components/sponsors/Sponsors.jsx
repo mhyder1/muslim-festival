@@ -3,9 +3,13 @@ import { useEffect } from "preact/hooks";
 const Sponsors = () => {
   useEffect(() => {
     const hash = window.location.hash;
+    console.log(hash);
+    console.log(window.location);
     if (hash) {
       const element = document.getElementById(hash.substring(1));
-      if (element) element.scrollIntoView({ behavior: 'instant' });
+      if (element) element.scrollIntoView({ behavior: "instant" });
+    } else {
+      window.scrollTo(0, 0);
     }
   }, [window.location.hash]);
   return (
@@ -42,7 +46,9 @@ const Sponsors = () => {
           <h2 class="page-title">2023 Sponsors</h2>
           <section>
             <h3>Title Sponsor</h3>
-            <p class="page-text">Self Help Information Network and Exchange (S.H.I.N.E.)</p>
+            <p class="page-text">
+              Self Help Information Network and Exchange (S.H.I.N.E.)
+            </p>
           </section>
           <section>
             <h3>SILVER $1,000+</h3>
