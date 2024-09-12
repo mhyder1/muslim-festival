@@ -1,6 +1,11 @@
 import shine_logo from "../../assets/shine_logo.jpg";
+import { useEffect } from "preact/hooks";
 
 const About = () => {
+  useEffect(() => {
+      window.scrollTo(0, 0)
+  }, [])
+
   return (
     <div
       class="page container"

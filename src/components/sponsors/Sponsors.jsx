@@ -3,11 +3,11 @@ import { useEffect } from "preact/hooks";
 const Sponsors = () => {
   useEffect(() => {
     const hash = window.location.hash;
-    console.log(hash);
-    console.log(window.location);
     if (hash) {
-      const element = document.getElementById(hash.substring(1));
-      if (element) element.scrollIntoView({ behavior: "instant" });
+      setTimeout(() => {
+        const element = document.getElementById(hash.substring(1));
+        if (element) element.scrollIntoView({ behavior: "smooth" });
+      }, 200);
     } else {
       window.scrollTo(0, 0);
     }
@@ -57,7 +57,7 @@ const Sponsors = () => {
           </section>
           <section>
             <h3>BRONZE $500 - $999</h3>
-            <p class="page-text">Saffron Roads</p>
+            <p class="page-text">Saffron Road</p>
             <p class="page-text">Food Lion</p>
             <p class="page-text">Pizza Hut</p>
             <p class="page-text">Domino's Pizza</p>

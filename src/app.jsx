@@ -20,7 +20,6 @@ import Volunteers from "./components/volunteers/Volunteers";
 export function App() {
   return (
     <>
-      {/* Navigation */}
       <Nav />
       <Switch>
         <Route path="/" component={Home} />
