@@ -3,8 +3,8 @@ import { useEffect } from "preact/hooks";
 
 const About = () => {
   useEffect(() => {
-      window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div
@@ -30,7 +30,7 @@ const About = () => {
       </p>
       <p class="page-text">
         The NC Muslim Festival attracted over 1,000 people statewide. The
-        purpose of this event is to promote arts, education, faith, service, and
+        purpose of this event is to promote arts, education, service, and
         humanity. We do so by helping to build bridges with community members
         and offer an opportunity for civic pride, as well as education. Proudly,
         we had over 30 vendors with products ranging from health, beauty, and
