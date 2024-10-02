@@ -30,14 +30,15 @@ const About = () => {
       </p>
       <p class="page-text">
         The NC Muslim Festival attracted over 1,000 people statewide. The
-        purpose of this event is to promote arts, education, service, and
-        humanity. We do so by helping to build bridges with community members
-        and offer an opportunity for civic pride, as well as education. Proudly,
-        we had over 30 vendors with products ranging from health, beauty, and
-        wellness, to art, jewelry, clothing, and books. While many of the
-        vendors were local business owners, there were quite a few who traveled
-        from Raleigh, Durham, Charlotte, Eastern and Western North Carolina, and
-        as far as Indiana to participate in the festival. Attendees enjoyed the
+        purpose of this event is to promote cultural understanding, community
+        engagement, arts, diversity, humanity, service, and of course, unity. We
+        do so by helping to build bridges with community members and offer an
+        opportunity for civic pride, as well as education. Proudly, we had over
+        30 vendors with products ranging from health, beauty, and wellness, to
+        art, jewelry, clothing, and books. While many of the vendors were local
+        business owners, there were quite a few who traveled from Raleigh,
+        Durham, Charlotte, Eastern and Western North Carolina, and as far as
+        Indiana to participate in the festival. Attendees enjoyed the
         educational and interactive African drumming circle, the games and
         prizes offered at the KidZone area, and music from a renowned hip-hop
         Muslim artist, Haa Seen Noon. There was a huge amount of diverse
