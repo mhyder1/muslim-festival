@@ -2,11 +2,16 @@ import Header from "../header/Header";
 import Section from "./Section";
 import { Link } from "wouter-preact";
 
-import vendor_4 from '../../assets/vendor_4.jpg'
+import vendor_4 from "../../assets/vendor_4.jpg";
 import sponsor_2 from "../../assets/sponsor_2.jpg";
 import entertainment from "../../assets/entertainment.jpg";
+import dayjs from "dayjs";
 
 const Home = () => {
+  const deadline = dayjs("11/4/2024");
+  const date = dayjs().isBefore(deadline)
+    ? deadline.format("MMMM DD, YYYY")
+    : "December 31, 2024";
   return (
     <>
       <Header />
@@ -43,7 +48,7 @@ const Home = () => {
           perform at the 2025 NC Muslim Festival (eg. solo singer or band |
           rapper | spoken word | poetry | musicians - instruments | comedian,
           etc.). Submit a short video (mp4) of your performance to
-          ncmuslimfest@gmail.com before December 31, 2024.
+          ncmuslimfest@gmail.com before {date}.
         </p>
       </Section>
       <Section
@@ -75,7 +80,7 @@ const Home = () => {
           Take advantage of showcasing your business by vending at the NCMF.
           There are several ways of participating as a vendor: Exhibitor,
           Merchandise, Food Table or Food Truck. If interested, complete your
-          vendor application before December 31, 2024.
+          vendor application before {date}.
           <Link
             href="/vendors"
             class="btn btn-primary btn-lg rounded-pill mt-5"
