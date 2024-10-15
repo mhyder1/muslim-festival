@@ -5,13 +5,10 @@ import { Link } from "wouter-preact";
 import vendor_4 from "../../assets/vendor_4.jpg";
 import sponsor_2 from "../../assets/sponsor_2.jpg";
 import entertainment from "../../assets/entertainment.jpg";
-import dayjs from "dayjs";
+import { useDeadline } from "../../hooks/useDeadline";
 
 const Home = () => {
-  const deadline = dayjs("11/4/2024");
-  const date = dayjs().isBefore(deadline)
-    ? deadline.format("MMMM DD, YYYY")
-    : "December 31, 2024";
+  const { date } = useDeadline();
   return (
     <>
       <Header />

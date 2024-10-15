@@ -9,7 +9,9 @@ import roots from "../../assets/logos/roots.jpg";
 import saffron from "../../assets/logos/saffron.png";
 import shine from "../../assets/logos/shine.jpg";
 import { useEffect } from "preact/hooks";
+import { useDeadline } from "../../hooks/useDeadline";
 const Sponsors = () => {
+  const { date } = useDeadline();
   useEffect(() => {
     const hash = window.location.hash;
     if (hash) {
@@ -31,7 +33,7 @@ const Sponsors = () => {
           is a mutual benefit for our local community as well as businesses in
           the area. Your support enables the North Carolina Muslim Festival
           (NCMF) to stay free, sustainable, and relevant. Click the button below
-          and fill out the application by the deadline September 27, 2024.
+          and fill out the application by the deadline {date}.
         </p>
 
         <a

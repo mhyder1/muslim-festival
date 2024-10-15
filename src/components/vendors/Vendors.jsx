@@ -1,8 +1,10 @@
 import vendor_1 from "../../assets/vendor_1.jpg";
 import vendor_2 from "../../assets/vendor_2.jpg";
 import vendor_3 from "../../assets/vendor_3.jpg";
+import { useDeadline } from "../../hooks/useDeadline";
 
 const Vendors = () => {
+  const { date } = useDeadline();
   return (
     <div
       class="page container page-flex"
@@ -19,7 +21,7 @@ const Vendors = () => {
           We invite you to participate as a vendor by bringing your business to
           the festival. Vendor fees vary based on food trucks, food tables, and
           merchandise tables (non-food items). Click one of the buttons below
-          and fill out the application before the deadline September 27, 2024.
+          and fill out the application before the deadline {date}.
         </p>
         <ul
           style={{
