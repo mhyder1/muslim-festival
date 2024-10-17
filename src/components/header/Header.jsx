@@ -31,7 +31,7 @@ const Header = () => {
             </p>
             <p class="event-time">
               <span>Saturday, May 10, 2025</span>
-              <span>10:30 am - 6:30 pm</span>
+              <span>10:00 am - 6:00 pm</span>
             </p>
           </div>
 
