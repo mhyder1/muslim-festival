@@ -120,3 +120,14 @@
 .logo {
   height: 100px;
 }
+
+.faq-color {
+  color: #266445;
+}
+
+.link-color,
+.link-color:hover,
+.link-color:visited,
+.link-color:active {
+  color: #266445;
+}

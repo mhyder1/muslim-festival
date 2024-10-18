@@ -16,6 +16,7 @@ import About from "./components/about/About";
 import Sponsors from "./components/sponsors/Sponsors";
 import Contact from "./components/contact/Contact";
 import Volunteers from "./components/volunteers/Volunteers";
+import Faqs from "./components/faqs/Faqs";
 
 export function App() {
   return (
@@ -28,6 +29,7 @@ export function App() {
         <Route path="/sponsors" component={Sponsors} />
         <Route path="/volunteers" component={Volunteers} />
         <Route path="/contact" component={Contact} />
+        <Route path="/faqs" component={Faqs} />
       </Switch>
       <Footer />
     </>
