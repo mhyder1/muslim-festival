@@ -1,4 +1,5 @@
 import FaqEntry from "./FaqEntry";
+import { useEffect } from "preact/hooks";
 const Faqs = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
