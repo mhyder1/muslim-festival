@@ -211,8 +211,15 @@ const Faqs = () => {
           title="I want to be a part of the NCMF planning team, what do you look for?"
           content={
             <p>
-              Anyone who supports SHINE/NCMF's mission and purpose is welcome to
-              apply to be a part of the festival planning team.
+              Anyone who supports SHINE/NCMF's mission and purpose is welcome to{" "}
+              <a
+                href="https://form.jotform.com/222664757551160"
+                target="_blank"
+                class="link-color"
+              >
+                apply
+              </a>{" "}
+              to be a part of the festival planning team.
             </p>
           }
         />
