@@ -23,6 +23,13 @@ const Vendors = () => {
           merchandise tables (non-food items). Click one of the buttons below
           and fill out the application before the deadline {date}.
         </p>
+        <p>
+          <strong>Note:</strong>{" "}
+          <span style={{ color: "red" }}>
+            The need for a halal truck is filled. Food truck openings for one
+            vegetarian and one seafood truck only. Thank you.
+          </span>
+        </p>
         <ul
           style={{
             listStyle: "none",
