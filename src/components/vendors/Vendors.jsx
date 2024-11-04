@@ -26,8 +26,8 @@ const Vendors = () => {
         <p>
           <strong>Note:</strong>{" "}
           <span style={{ color: "red" }}>
-            The need for a halal truck is filled. Food truck openings for one
-            vegetarian and one seafood truck only. Thank you.
+            The need for a halal and vegetarian truck is filled. Food truck
+            openings for one seafood truck only. Thank you.
           </span>
         </p>
         <ul
