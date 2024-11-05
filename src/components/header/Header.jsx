@@ -26,12 +26,12 @@ const Header = () => {
             }}
           >
             <p class="event-time">
-              <span>Center City Park, downtown Greensboro</span>
-              <span>200 N. Elm Street, Greensboro, NC</span>
+              <span>Center City Park | Downtown Greensboro</span>
+              <span>200 N. Elm Street | Greensboro, NC</span>
             </p>
             <p class="event-time">
-              <span>Saturday, May 10, 2025</span>
-              <span>10:00 am - 6:00 pm</span>
+              <span>Saturday, May 10, 2025 | 10:00 AM - 6:00 PM</span>
+              <span>Free Admission | Open to the Public</span>
             </p>
           </div>
 

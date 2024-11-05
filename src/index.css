@@ -131,3 +131,13 @@
 .link-color:active {
   color: #266445;
 }
+
+.sold-out {
+  display: block;
+  transform: rotate(-45deg);
+  font-weight: bold;
+  font-size: small;
+  position: absolute;
+  top: 72%;
+  left: 10px;
+}

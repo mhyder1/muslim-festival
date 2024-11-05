@@ -21,13 +21,13 @@ const Vendors = () => {
           We invite you to participate as a vendor by bringing your business to
           the festival. Vendor fees vary based on food trucks, food tables, and
           merchandise tables (non-food items). Click one of the buttons below
-          and fill out the application before the deadline {date}.
+          and fill out the application before the deadline {date}. Prices may
+          increase after the deadline.
         </p>
         <p>
           <strong>Note:</strong>{" "}
           <span style={{ color: "red" }}>
-            The need for a halal and vegetarian truck is filled. Food truck
-            openings for one seafood truck only. Thank you.
+            Food truck openings are for one seafood truck only. Thank you.
           </span>
         </p>
         <ul
@@ -40,14 +40,15 @@ const Vendors = () => {
             padding: "0",
           }}
         >
-          <li>
+          <li style={{ position: "relative" }}>
             <a
               href="https://form.jotform.com/222685597504163"
               target="_blank"
-              class="btn btn-primary btn-sm rounded-pill mt-5"
+              class="btn btn-primary btn-sm rounded-pill mt-5 disabled"
             >
               Food Table
             </a>
+            <span class="text-danger sold-out">SOLD OUT</span>
           </li>
           <li>
             <a
