@@ -13,12 +13,15 @@ const About = () => {
     >
       <img src={shine_logo} alt="S.H.I.N.E logo" style={{ width: "50%" }} />
       <p class="page-text">
-        The North Carolina Muslim Festival is sponsored by the Self-Help
-        Information Network and Exchange (S.H.I.N.E.). Founded by Robyn
-        Saleem-Abdusamad, S.H.I.N.E. is a registered non-profit organization
-        with a mission to empower, uplift, and unite communities by providing
-        educational programs and events that foster lifelong learning, personal
-        growth, meaningful relationships, and community engagement.
+        The North Carolina Muslim Festival is sponsored by the{" "}
+        <a href="https://www.shinenow.org/" target="_blank">
+          Self-Help Information Network and Exchange
+        </a>{" "}
+        (S.H.I.N.E.). Founded by Robyn Saleem-Abdusamad, S.H.I.N.E. is a
+        registered non-profit organization with a mission to empower, uplift,
+        and unite communities by providing educational programs and events that
+        foster lifelong learning, personal growth, meaningful relationships, and
+        community engagement.
       </p>
       <p class="page-text">
         On April 29, 2023, S.H.I.N.E. successfully hosted the first bi-annual NC
