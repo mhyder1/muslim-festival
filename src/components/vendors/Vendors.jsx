@@ -18,13 +18,18 @@ const Vendors = () => {
           Vendors
         </h1>
         <p class="page-text">
+          Sorry, vendor registration for the 2025 NC Muslim festival is closed.
+          See you at the next open registration! Check back here for a list of
+          our 2025 confirmed vendors.
+        </p>
+        <p class="page-text d-none">
           We invite you to participate as a vendor by bringing your business to
           the festival. Vendor fees vary based on food trucks, food tables, and
           merchandise tables (non-food items). Click one of the buttons below
           and fill out the application before the deadline {date}. Prices may
           increase after the deadline.
         </p>
-        <p>
+        <p class="d-none">
           <strong>Note:</strong>{" "}
           <span style={{ color: "red" }}>
             Food truck openings are for one seafood truck only. Thank you.
@@ -38,6 +43,7 @@ const Vendors = () => {
             width: "100%",
             flexWrap: "wrap",
             padding: "0",
+            display: "none",
           }}
         >
           <li style={{ position: "relative" }}>
