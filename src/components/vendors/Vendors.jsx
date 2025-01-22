@@ -38,7 +38,7 @@ const Vendors = () => {
         <ul
           style={{
             listStyle: "none",
-            display: "flex",
+            // display: "flex",
             justifyContent: "space-around",
             width: "100%",
             flexWrap: "wrap",
