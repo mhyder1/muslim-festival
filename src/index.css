@@ -141,3 +141,15 @@
   top: 72%;
   left: 20%;
 }
+
+.itemClass {
+  border: 1px solid red;
+}
+
+.containerClass {
+  border: 1px solid green;
+}
+
+.sliderClass {
+  border: 1px solid blue;
+}

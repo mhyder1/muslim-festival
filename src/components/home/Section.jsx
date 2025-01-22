@@ -1,4 +1,12 @@
-const Section = ({ isScroll = false, imgClass, txtClass, img, title, children }) => {
+const Section = ({
+  isScroll = false,
+  imgClass,
+  txtClass,
+  img,
+  title,
+  children,
+  component,
+}) => {
   return (
     <section id={isScroll ? "scroll" : ""} className="iframe-fix">
       <div class="container px-5">
@@ -15,6 +23,7 @@ const Section = ({ isScroll = false, imgClass, txtClass, img, title, children })
             </div>
           </div>
         </div>
+        {component && <div style={{ paddingBottom: "2rem" }}>{component}</div>}
       </div>
     </section>
   );
