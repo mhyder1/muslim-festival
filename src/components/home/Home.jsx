@@ -54,7 +54,7 @@ import vendor_48 from "../../assets/carousel/vendors/vendor_48.jpg";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-import vendor_4_1 from "../../assets/vendor_4.jpg";
+// import vendor_4_1 from "../../assets/vendor_4.jpg";
 import sponsor_2 from "../../assets/sponsor_2.jpg";
 import entertainment from "../../assets/entertainment.jpg";
 import { useDeadline } from "../../hooks/useDeadline";
@@ -175,7 +175,7 @@ const Home = () => {
           perform at the 2025 NC Muslim Festival (eg. solo singer or band |
           rapper | spoken word | poetry | musicians - instruments | comedian,
           etc.). Submit a short video (mp4) of your performance to
-          ncmuslimfest@gmail.com before {date}.
+          ncmuslimfest@gmail.com before April 1, 2025.
         </p>
       </Section>
       <Section
@@ -198,13 +198,14 @@ const Home = () => {
         </p>
       </Section>
       <Section
-        img={vendor_4_1}
+        // img={vendor_4_1}
         imgClass="col-lg-6 order-lg-2"
-        txtClass="col-lg-6 order-lg-1"
+        // txtClass="col-lg-6 order-lg-1"
+        txtClass="d-flex justify-content-center"
         title="Our 2025 Vendors"
         component={vendors}
       >
-        <p>
+        {/* <p>
           Take advantage of showcasing your business by vending at the NCMF.
           There are several ways of participating as a vendor: Exhibitor,
           Merchandise, Food Table or Food Truck. If interested, complete your
@@ -215,7 +216,7 @@ const Home = () => {
           >
             Become a Vendor TODAY!
           </Link>
-        </p>
+        </p> */}
       </Section>
     </>
   );
