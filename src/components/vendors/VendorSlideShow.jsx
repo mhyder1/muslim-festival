@@ -46,6 +46,9 @@ import vendor_45 from "../../assets/carousel/vendors/vendor_45.png";
 import vendor_46 from "../../assets/carousel/vendors/vendor_46.jpg";
 import vendor_47 from "../../assets/carousel/vendors/vendor_47.png";
 import vendor_48 from "../../assets/carousel/vendors/vendor_48.jpg";
+import vendor_49 from "../../assets/carousel/vendors/vendor_49.jpg";
+import vendor_50 from "../../assets/carousel/vendors/vendor_50.jpg";
+import vendor_51 from "../../assets/carousel/vendors/vendor_51.jpg";
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -100,6 +103,9 @@ const VendorSlideShow = () => {
     vendor_46,
     vendor_47,
     vendor_48,
+    vendor_49,
+    vendor_50,
+    vendor_51,
   ];
   const responsive = {
     largeDesktop: {

@@ -15,6 +15,7 @@ import sponsor_14 from "../../assets/carousel/sponsors/sponsor_14.jpg";
 import sponsor_15 from "../../assets/carousel/sponsors/sponsor_15.jpg";
 import sponsor_16 from "../../assets/carousel/sponsors/sponsor_16.png";
 import sponsor_17 from "../../assets/carousel/sponsors/sponsor_17.png";
+import sponsor_18 from "../../assets/carousel/sponsors/sponsor_18.png";
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -38,6 +39,7 @@ const SponsorSlideShow = () => {
     sponsor_15,
     sponsor_16,
     sponsor_17,
+    sponsor_18,
   ];
   const responsive = {
     largeDesktop: {
