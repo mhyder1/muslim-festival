@@ -51,6 +51,56 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 const VendorSlideShow = () => {
+  const images = [
+    vendor_1,
+    vendor_2,
+    vendor_3,
+    vendor_4,
+    vendor_5,
+    vendor_6,
+    vendor_7,
+    vendor_8,
+    vendor_9,
+    vendor_10,
+    vendor_11,
+    vendor_12,
+    vendor_13,
+    vendor_14,
+    vendor_15,
+    vendor_16,
+    vendor_17,
+    vendor_18,
+    vendor_19,
+    vendor_20,
+    vendor_21,
+    vendor_22,
+    vendor_23,
+    vendor_24,
+    vendor_25,
+    vendor_26,
+    vendor_27,
+    vendor_28,
+    vendor_29,
+    vendor_30,
+    vendor_31,
+    vendor_32,
+    vendor_33,
+    vendor_34,
+    vendor_35,
+    vendor_36,
+    vendor_37,
+    vendor_38,
+    vendor_39,
+    vendor_40,
+    vendor_41,
+    vendor_42,
+    vendor_43,
+    vendor_44,
+    vendor_45,
+    vendor_46,
+    vendor_47,
+    vendor_48,
+  ];
   const responsive = {
     largeDesktop: {
       // the naming can be any, depends on you.
@@ -71,62 +121,37 @@ const VendorSlideShow = () => {
     },
   };
 
+  const carouselItem = {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    minWidth: "200px",
+    padding: "10px",
+  };
+
+  const carouselImage = {
+    height: "250px",
+    width: "auto",
+    maxWidth: "100%",
+    objectFit: "contain",
+  };
+
   return (
     <Carousel
       responsive={responsive}
       infinite={true}
       autoPlay={true}
       autoPlaySpeed={2000}
+      slidesToSlide={2}
       itemClass=""
       containerClass=""
       sliderClass=""
     >
-      <img src={vendor_1} />
-      <img src={vendor_2} />
-      <img src={vendor_3} />
-      <img src={vendor_4} />
-      <img src={vendor_5} />
-      <img src={vendor_6} />
-      <img src={vendor_7} />
-      <img src={vendor_8} />
-      <img src={vendor_9} />
-      <img src={vendor_10} />
-      <img src={vendor_11} />
-      <img src={vendor_12} />
-      <img src={vendor_13} />
-      <img src={vendor_14} />
-      <img src={vendor_16} />
-      <img src={vendor_17} />
-      <img src={vendor_18} />
-      <img src={vendor_19} />
-      <img src={vendor_20} />
-      <img src={vendor_21} />
-      <img src={vendor_22} />
-      <img src={vendor_23} />
-      <img src={vendor_24} />
-      <img src={vendor_25} />
-      <img src={vendor_26} />
-      <img src={vendor_27} />
-      <img src={vendor_28} />
-      <img src={vendor_29} />
-      <img src={vendor_30} />
-      <img src={vendor_31} />
-      <img src={vendor_32} />
-      <img src={vendor_33} />
-      <img src={vendor_34} />
-      <img src={vendor_35} />
-      <img src={vendor_36} />
-      <img src={vendor_37} />
-      <img src={vendor_38} />
-      <img src={vendor_39} />
-      <img src={vendor_40} />
-      <img src={vendor_42} />
-      <img src={vendor_43} />
-      <img src={vendor_44} />
-      <img src={vendor_45} />
-      <img src={vendor_46} />
-      <img src={vendor_47} />
-      <img src={vendor_48} />
+      {images.map((src, index) => (
+        <div style={carouselItem} key={index}>
+          <img style={carouselImage} src={src} />
+        </div>
+      ))}
     </Carousel>
   );
 };

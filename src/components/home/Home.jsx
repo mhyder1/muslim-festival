@@ -2,6 +2,7 @@ import Header from "../header/Header";
 import Section from "./Section";
 import { Link } from "wouter-preact";
 import VendorSlideShow from "../vendors/VendorSlideShow";
+import SponsorSlideShow from "../sponsors/SponsorSlideShow";
 
 // import vendor_4_1 from "../../assets/vendor_4.jpg";
 import sponsor_2 from "../../assets/sponsor_2.jpg";
@@ -55,6 +56,7 @@ const Home = () => {
         img={sponsor_2}
         imgClass="col-lg-6"
         txtClass="col-lg-6"
+        component={<SponsorSlideShow />}
       >
         <p>
           Your support helps the NC Muslim Festival (NCMF) to stay free,
