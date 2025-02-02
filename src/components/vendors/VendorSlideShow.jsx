@@ -42,7 +42,6 @@ import vendor_41 from "../../assets/carousel/vendors/vendor_41.png";
 import vendor_42 from "../../assets/carousel/vendors/vendor_42.jpg";
 import vendor_43 from "../../assets/carousel/vendors/vendor_43.jpg";
 import vendor_44 from "../../assets/carousel/vendors/vendor_44.png";
-import vendor_45 from "../../assets/carousel/vendors/vendor_45.png";
 import vendor_46 from "../../assets/carousel/vendors/vendor_46.jpg";
 import vendor_47 from "../../assets/carousel/vendors/vendor_47.png";
 import vendor_48 from "../../assets/carousel/vendors/vendor_48.jpg";
@@ -99,7 +98,6 @@ const VendorSlideShow = () => {
     vendor_42,
     vendor_43,
     vendor_44,
-    vendor_45,
     vendor_46,
     vendor_47,
     vendor_48,
