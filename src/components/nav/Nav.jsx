@@ -7,17 +7,32 @@ const Nav = () => {
     { text: "Sponsors", url: "/sponsors" },
     { text: "Volunteers", url: "/volunteers" },
     { text: "Contact", url: "/contact" },
+    { text: "Adhan Contest", url: "/contest" },
   ];
   const menu = menuItems.map((item) =>
     item.text === "Sponsors" ? (
       <li class="nav-item dropdown">
-        <Link class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <Link
+          class="nav-link dropdown-toggle"
+          href="#"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
           {item.text}
         </Link>
         <ul class="dropdown-menu">
-            <li><Link class="dropdown-item" href={item.url}>2025</Link></li>
-            <li><Link class="dropdown-item" href="/sponsors/#2023">2023</Link></li>
-          </ul>
+          <li>
+            <Link class="dropdown-item" href={item.url}>
+              2025
+            </Link>
+          </li>
+          <li>
+            <Link class="dropdown-item" href="/sponsors/#2023">
+              2023
+            </Link>
+          </li>
+        </ul>
       </li>
     ) : (
       <li class="nav-item">
