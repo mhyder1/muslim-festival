@@ -33,7 +33,7 @@ const Contest = () => {
           registration form before <strong>Monday, March 31st</strong>.
         </p>
         <h4>Prizes:</h4>
-        <p>CHILDREN 1st: iPad, 2nd: Bike, 3rd: $25 gift card</p>
+        <p>CHILDREN 1st: Tablet, 2nd: Bike, 3rd: $25 gift card</p>
         <p>TEENS 1st: $100.00, 2nd: $50.00, 3rd: $25.00</p>
         <p>ADULTS 1st: $150.00, 2nd: $75.00, 3rd: $50.00</p>
         <a
