@@ -6,7 +6,7 @@ import SponsorSlideShow from "../sponsors/SponsorSlideShow";
 
 // import vendor_4_1 from "../../assets/vendor_4.jpg";
 import sponsor_2 from "../../assets/sponsor_2.jpg";
-import entertainment from "../../assets/entertainment.jpg";
+import entertainment from "../../assets/wafeeq.jpg";
 import { useDeadline } from "../../hooks/useDeadline";
 
 const Home = () => {
@@ -44,11 +44,27 @@ const Home = () => {
         isScroll={true}
       >
         <p>
-          Seeking talented NC Muslim artists who would like to audition to
-          perform at the 2025 NC Muslim Festival (eg. solo singer or band |
-          rapper | spoken word | poetry | musicians - instruments | comedian,
-          etc.). Submit a short video (mp4) of your performance to
-          ncmuslimfest@gmail.com before April 1, 2025.
+          2025 NCMF Emcee, Wafeeq Zarif NC-based comedian and the Muslim News
+          guy.
+          <br />
+          <a href="https://www.facebook.com/@wafeeq.zarif" target="_blank">
+            <i
+              class="bi bi-facebook entertainment-social-media"
+              style={{ color: "#1877F2" }}
+            ></i>
+          </a>
+          <a href="https://www.instagram.com/wafeeqzarif" target="_blank">
+            <i
+              class="bi bi-instagram entertainment-social-media"
+              style={{ color: "#E4405F" }}
+            ></i>
+          </a>
+          <a href="https://www.youtube.com/@wafeeqzarif" target="_blank">
+            <i
+              class="bi bi-youtube entertainment-social-media"
+              style={{ color: "#CD201F" }}
+            ></i>
+          </a>
         </p>
       </Section>
       <Section
