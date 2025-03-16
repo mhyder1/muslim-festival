@@ -40,12 +40,13 @@ const Home = () => {
         img={entertainment}
         imgClass="col-lg-6 order-lg-2"
         txtClass="col-lg-6 order-lg-1"
-        title="Entertainment Lineup"
+        title="2025 NCMF Emcee"
         isScroll={true}
       >
         <p>
-          2025 NCMF Emcee, Wafeeq Zarif NC-based comedian and the Muslim News
-          guy.
+          <strong>Wafeeq Zarif</strong>
+          <br />
+          NC-based comedian | The Muslim News Guy
           <br />
           <a href="https://www.facebook.com/@wafeeq.zarif" target="_blank">
             <i
