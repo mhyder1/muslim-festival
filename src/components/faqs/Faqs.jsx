@@ -213,7 +213,7 @@ const Faqs = () => {
             <p>
               Anyone who supports SHINE/NCMF's mission and purpose is welcome to{" "}
               <a
-                href="https://form.jotform.com/222664757551160"
+                href="https://form.jotform.com/222665302873154"
                 target="_blank"
                 class="link-color"
               >

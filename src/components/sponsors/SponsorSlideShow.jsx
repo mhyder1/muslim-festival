@@ -1,3 +1,4 @@
+import sponsor_1 from "../../assets/carousel/sponsors/sponsor_1.jpg";
 import sponsor_2 from "../../assets/carousel/sponsors/sponsor_2.jpg";
 import sponsor_3 from "../../assets/carousel/sponsors/sponsor_3.png";
 import sponsor_4 from "../../assets/carousel/sponsors/sponsor_4.png";
@@ -21,6 +22,7 @@ import "react-multi-carousel/lib/styles.css";
 
 const SponsorSlideShow = () => {
   const images = [
+    sponsor_1,
     sponsor_2,
     sponsor_3,
     sponsor_4,
