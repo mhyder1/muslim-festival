@@ -5,7 +5,7 @@ const Nav = () => {
     { text: "About", url: "/about" },
     { text: "Vendors", url: "/vendors" },
     { text: "Sponsors", url: "/sponsors" },
-    { text: "Volunteers", url: "/volunteers" },
+    // { text: "Volunteers", url: "/volunteers" },
     { text: "Contact", url: "/contact" },
     { text: "Adhan Contest", url: "/contest" },
   ];

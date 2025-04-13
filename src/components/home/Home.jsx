@@ -7,6 +7,7 @@ import SponsorSlideShow from "../sponsors/SponsorSlideShow";
 // import vendor_4_1 from "../../assets/vendor_4.jpg";
 import sponsor_2 from "../../assets/sponsor_2.jpg";
 import entertainment from "../../assets/wafeeq.jpg";
+import saleema from "../../assets/saleema.jpg";
 import { useDeadline } from "../../hooks/useDeadline";
 
 const Home = () => {
@@ -15,33 +16,22 @@ const Home = () => {
   return (
     <>
       <Header />
-      {/* <div
-        id="scroll"
-        style={{
-          backgroundColor: "rgb(217 211 191)",
-          display: "flex",
-          width: "75%",
-          justifyContent: "center",
-          margin: "2rem auto",
-          padding: "1rem",
-        }}
+      <Section
+        title="Spoken Word Artist"
+        img={saleema}
+        imgClass="col-lg-6"
+        txtClass="col-lg-6"
+        isScroll={true}
       >
-        <h2 style={{ width: "40%" }}>Get to know your muslim neighbor</h2>
-        <p style={{ width: "60%" }}>
-          They are your Medical Professionals, Political Representatives,
-          Educators, Realtors, Lawyers, Financial Advisors, Police Officers,
-          Firemen, Chaplains, Supervisors, Chef, Judges, Journalists, General
-          Contractors, Event Planners, Pilots, Engineers, Entrepreneurs, Your
-          Favorite Athletes, Authors, Musicians, Poets, Actors/Actresses, Models
-          and/or Comedians, Friends, Co-workers, Family, and More!
+        <p>
+          <strong>Saleema Abdullah</strong>
         </p>
-      </div> */}
+      </Section>
       <Section
         img={entertainment}
         imgClass="col-lg-6 order-lg-2"
         txtClass="col-lg-6 order-lg-1"
         title="2025 NCMF Emcee"
-        isScroll={true}
       >
         <p>
           <strong>Wafeeq Zarif</strong>
