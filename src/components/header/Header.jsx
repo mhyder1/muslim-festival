@@ -46,13 +46,18 @@ const Header = () => {
             }}
           >
             <p class="event-time">
+            <span>3rd Biennial NC Muslim Festival</span>
+            <span>Center City Park - Downtown Greensboro</span>
+            <span>Saturday, April 17, 2027 | 10:00 am - 6:00 pm</span>
+            </p>
+            {/* <p class="event-time">
               <span>Center City Park | Downtown Greensboro</span>
               <span>200 N. Elm Street | Greensboro, NC</span>
             </p>
             <p class="event-time">
               <span>Saturday, May 10, 2025 | 10:00 AM - 6:00 PM</span>
               <span>Free Admission | Open to the Public</span>
-            </p>
+            </p> */}
           </div>
 
           {/* <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">

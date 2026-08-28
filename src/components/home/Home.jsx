@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <>
       <Header />
-      <Section
+      {/* <Section
         title="Spoken Word Artist"
         img={saleema}
         imgClass="col-lg-6"
@@ -77,15 +77,15 @@ const Home = () => {
             Become a Sponsor TODAY!
           </Link>
         </p>
-      </Section>
-      <Section
+      </Section> */}
+      {/* <Section
         // img={vendor_4_1}
         imgClass="col-lg-6 order-lg-2"
         // txtClass="col-lg-6 order-lg-1"
         txtClass="d-flex justify-content-center"
         title="Our 2025 Vendors"
         component={<VendorSlideShow />}
-      >
+      > */}
         {/* <p>
           Take advantage of showcasing your business by vending at the NCMF.
           There are several ways of participating as a vendor: Exhibitor,
@@ -98,7 +98,7 @@ const Home = () => {
             Become a Vendor TODAY!
           </Link>
         </p> */}
-      </Section>
+      {/* </Section> */}
     </>
   );
 };

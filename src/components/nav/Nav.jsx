@@ -3,11 +3,11 @@ import { Link } from "wouter-preact";
 const Nav = () => {
   const menuItems = [
     { text: "About", url: "/about" },
-    { text: "Vendors", url: "/vendors" },
-    { text: "Sponsors", url: "/sponsors" },
+    // { text: "Vendors", url: "/vendors" },
+    // { text: "Sponsors", url: "/sponsors" },
     // { text: "Volunteers", url: "/volunteers" },
-    { text: "Contact", url: "/contact" },
-    { text: "Adhan Contest", url: "/contest" },
+    // { text: "Contact", url: "/contact" },
+    // { text: "Adhan Contest", url: "/contest" },
   ];
   const menu = menuItems.map((item) =>
     item.text === "Sponsors" ? (
