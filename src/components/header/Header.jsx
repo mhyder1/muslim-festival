@@ -35,7 +35,7 @@ const Header = () => {
           </h1>
           <h4 class="masthead-subheading mb-0 header-shadow">
             {" "}
-            Celebrate Diversity, Embrace Unity
+            This is it: Celebrate Diversity, Embrace Unity
           </h4>
           <div
             style={{
@@ -47,8 +47,9 @@ const Header = () => {
           >
             <p class="event-time">
             <span>3rd Biennial NC Muslim Festival</span>
-            <span>Center City Park - Downtown Greensboro</span>
-            <span>Saturday, April 17, 2027 | 10:00 am - 6:00 pm</span>
+            <span>LeBauer Park - Downtown Greensboro</span>
+            <span>208 N. Davie Street, Greensboro, NC</span>
+            <span>Saturday, April 17, 2027 | 11:00 am - 6:00 pm</span>
             </p>
             {/* <p class="event-time">
               <span>Center City Park | Downtown Greensboro</span>

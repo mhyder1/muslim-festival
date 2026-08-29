@@ -34,6 +34,10 @@
   color: rgb(38, 100, 69);
 }
 
+.align-left {
+  align-self: self-start;
+}
+
 /* rgb(38,100,69) */
 
 .page-container {
@@ -58,16 +62,16 @@
 .zoom {
   /* padding: 50px; */
   /* background-color: green; */
-  transition: transform 0.2s; /* Animation */
+  transition: transform 0.2s;
+  /* Animation */
   /* width: 200px;
   height: 200px; */
   /* margin: 0 auto; */
 }
 
 .zoom:hover {
-  transform: scale(
-    1.5
-  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.5);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .bg-video {
@@ -153,6 +157,7 @@
 .sliderClass {
   border: 1px solid blue;
 }
+
 .entertainment-social-media {
   font-size: 2rem;
   margin-right: 1rem;

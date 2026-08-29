@@ -3,7 +3,7 @@ import { Link } from "wouter-preact";
 const Nav = () => {
   const menuItems = [
     { text: "About", url: "/about" },
-    // { text: "Vendors", url: "/vendors" },
+    { text: "Vendors", url: "/vendors" },
     // { text: "Sponsors", url: "/sponsors" },
     // { text: "Volunteers", url: "/volunteers" },
     // { text: "Contact", url: "/contact" },

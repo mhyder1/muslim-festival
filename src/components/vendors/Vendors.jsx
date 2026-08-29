@@ -17,7 +17,14 @@ const Vendors = () => {
         >
           Vendors
         </h1>
-        <p class="page-text">
+        <h3>Become a Vendor at the 2027 NC Muslim Festival!</h3>
+        <p class="page-text">We're excited to welcome vendors to the 2027 NC Muslim Festival! Showcase your business, connect with our growing community, and be part of an unforgettable celebration of diversity and unity.</p>
+        <p class="page-text align-left">Please select the vendor registration that best matches the products or services you offer.</p>
+        <p class="page-text align-left"><span style={{ fontWeight: 'bold' }}>Early Bird Registration:</span> Ends October 15, 2026</p>
+        <p class="page-text align-left"><span style={{ fontWeight: 'bold' }}>Regular Registration:</span> Ends December 31, 2026</p>
+
+        <p class="page-text align-left">Vendor spaces are limited, so register early to secure your spot!</p>
+        {/* <p class="page-text">
           Sorry, vendor registration for the 2025 NC Muslim festival is closed.
           See you at the next open registration! Check back here for a list of
           our 2025 confirmed vendors.
@@ -34,27 +41,27 @@ const Vendors = () => {
           <span style={{ color: "red" }}>
             Food truck openings are for one seafood truck only. Thank you.
           </span>
-        </p>
+        </p>*/}
         <ul
           style={{
             listStyle: "none",
-            // display: "flex",
+            display: "flex",
             justifyContent: "space-around",
             width: "100%",
             flexWrap: "wrap",
             padding: "0",
-            display: "none",
+            // display: "none",
           }}
         >
           <li style={{ position: "relative" }}>
             <a
               href="https://form.jotform.com/222685597504163"
               target="_blank"
-              class="btn btn-primary btn-sm rounded-pill mt-5 disabled"
+              class="btn btn-primary btn-sm rounded-pill mt-5"
             >
               Food Table
             </a>
-            <span class="text-danger sold-out">SOLD OUT</span>
+            {/* <span class="text-danger sold-out">SOLD OUT</span> */}
           </li>
           <li>
             <a
@@ -69,23 +76,23 @@ const Vendors = () => {
             <a
               href="https://form.jotform.com/222684960721157"
               target="_blank"
-              class="btn btn-primary btn-sm rounded-pill mt-5 disabled"
+              class="btn btn-primary btn-sm rounded-pill mt-5"
             >
               Merchandise
             </a>
-            <span class="text-danger sold-out">SOLD OUT</span>
+            {/* <span class="text-danger sold-out">SOLD OUT</span> */}
           </li>
           <li style={{ position: "relative" }}>
             <a
               href="https://form.jotform.com/240618023385150"
               target="_blank"
-              class="btn btn-primary btn-sm rounded-pill mt-5 disabled"
+              class="btn btn-primary btn-sm rounded-pill mt-5"
             >
-              Exhibitor (no products to sell)
+              Information/Exhibitors (no products to sell)
             </a>
-            <span class="text-danger sold-out">SOLD OUT</span>
+            {/* <span class="text-danger sold-out">SOLD OUT</span> */}
           </li>
-        </ul>
+        </ul> 
         <div
           style={{
             display: "flex",
@@ -112,7 +119,7 @@ const Vendors = () => {
             alt="vendor 3"
             style={{ width: "30%" }}
             class="zoom"
-          />
+          /> 
         </div>
       </div>
     </div>

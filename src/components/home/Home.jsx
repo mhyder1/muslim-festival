@@ -57,7 +57,7 @@ const Home = () => {
             ></i>
           </a>
         </p>
-      </Section>
+      </Section>*/}
       <Section
         title="Our Proud 2025 Sponsors"
         img={sponsor_2}
@@ -77,7 +77,7 @@ const Home = () => {
             Become a Sponsor TODAY!
           </Link>
         </p>
-      </Section> */}
+      </Section> 
       {/* <Section
         // img={vendor_4_1}
         imgClass="col-lg-6 order-lg-2"

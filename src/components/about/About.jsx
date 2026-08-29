@@ -12,7 +12,11 @@ const About = () => {
       style={{ display: "flex", flexDirection: "column", alignItems: "center" }}
     >
       <img src={shine_logo} alt="S.H.I.N.E logo" style={{ width: "50%" }} />
-      <p class="page-text">
+      <p class="page-text">The North Carolina Muslim Festival is presented by the <a href="https://www.shinenow.org/" target="_blank">Self-Help Information Network and Exchange</a> (S.H.I.N.E.), a registered nonprofit organization dedicated to empowering, uplifting, and uniting communities through education, engagement, and meaningful experiences.</p>
+      <p class="page-text">Since its inaugural event in downtown Greensboro in 2023, the NC Muslim Festival has continued to grow in attendance, community participation, local sponsorship, and business support. What began with more than 1,000 attendees and 30 vendors has grown into a highly anticipated celebration bringing together people from across North Carolina and beyond.</p>
+      <p class="page-text">Through cultural experiences, entertainment, local businesses, family activities, education, and community engagement, the festival creates an inclusive space for people of all backgrounds to connect.</p>
+      <p class="page-text">Our mission is simple: <span style={{ fontWeight: 'bold' }}>Celebrate Diversity. Embrace Unity. Build Community.</span></p>
+      {/* <p class="page-text">
         The North Carolina Muslim Festival is sponsored by the{" "}
         <a href="https://www.shinenow.org/" target="_blank">
           Self-Help Information Network and Exchange
@@ -52,7 +56,7 @@ const About = () => {
         Each time we host the NC Muslim Festival, it is our hope for it to
         continue to grow and become a beacon for the communities to celebrate
         diversity and embrace unity.
-      </p>
+      </p> */}
     </div>
   );
 };
