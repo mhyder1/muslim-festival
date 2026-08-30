@@ -1,9 +1,9 @@
-import gallery_1 from "../../assets/gallery_1.jpg";
-import gallery_2 from "../../assets/gallery_2.jpg";
-import gallery_3 from "../../assets/gallery_3.jpg";
-import gallery_4 from "../../assets/gallery_4.jpg";
-import gallery_5 from "../../assets/gallery_5.jpg";
-import gallery_6 from "../../assets/gallery_6.jpg";
+import gallery_1 from "../../assets/contact/contact_1.jpg";
+import gallery_2 from "../../assets/contact/contact_2.jpg";
+import gallery_3 from "../../assets/contact/contact_3.jpg";
+import gallery_4 from "../../assets/contact/contact_4.jpg";
+import gallery_5 from "../../assets/contact/contact_5.jpg";
+import gallery_6 from "../../assets/contact/contact_6.jpg";
 
 const Contact = () => {
   return (
@@ -20,15 +20,13 @@ const Contact = () => {
           class="page-title"
           style={{ fontFamily: "DIN Neuzeit Grotesk LT W01 BdCn" }}
         >
-          Contact
+          Contact Us
         </h1>
         <p class="page-text">
-          Please email us with any questions and/or concerns at
-          ncmuslimfest@gmail.com
+          Questions? Email us at ncmuslimfest@gmail.com
         </p>
         <p class="page-text">
-          We also encourage you to follow us on social media for updates and
-          announcements on{" "}
+          Follow NC Muslim Festival on{" "}
           <a
             href="https://www.facebook.com/profile.php?id=100085285972105"
             target="_blank"
@@ -38,7 +36,8 @@ const Contact = () => {
           and{" "}
           <a href="https://www.instagram.com/ncmuslimfest" target="_blank">
             Instagram (@ncmuslimfest)
-          </a>
+          </a>{" "}
+          for the latest updates and announcements.
         </p>
       </div>
       <div

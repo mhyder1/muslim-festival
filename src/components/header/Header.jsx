@@ -35,7 +35,7 @@ const Header = () => {
           </h1>
           <h4 class="masthead-subheading mb-0 header-shadow">
             {" "}
-            This is it: Celebrate Diversity, Embrace Unity
+            This Is It: Celebrate Diversity, Embrace Unity
           </h4>
           <div
             style={{
