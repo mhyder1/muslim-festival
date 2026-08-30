@@ -62,11 +62,11 @@ const Faqs = () => {
             hotels near the park?
           </a>
         </li>
-        <li>
+        {/* <li>
           <a class="link-color" href="#planning">
             I want to be a part of the NCMF planning team, what do you look for?
           </a>
-        </li>
+        </li> */}
       </ol>
       <div>
         <FaqEntry
@@ -89,8 +89,8 @@ const Faqs = () => {
           content={
             <p>
               The NCMF is a city-permitted event. Therefore, all vendors selling
-              unpackaged food must be approved by the local and state Food and
-              Health departments.
+              unpackaged food must be approved by the local and state <a target="_blank" href="https://www.guilfordcountync.gov/government/departments-and-agencies/health-and-human-services-agency/public-health/environmental-health/environmental-health-forms#FoodLodgingandInstitutions-3944">Food and
+                Health departments</a>.
             </p>
           }
         />
@@ -164,7 +164,7 @@ const Faqs = () => {
           content={
             <div class="d-flex flex-column">
               <p>
-                The festival will be held at Center City Park, 200 N. Elm Street
+                The festival will be held at LeBauer Park, 208 N. Davie St.
                 in downtown Greensboro (NC). There will be public parking in the
                 parking decks below. They are all located across from the park.
               </p>
@@ -186,7 +186,7 @@ const Faqs = () => {
             <div class="d-flex flex-column">
               <p>
                 If you plan to stay overnight. Below are a few nice hotels near
-                Center City Park.
+                LeBauer Park.
               </p>
               <ul>
                 <li>
@@ -206,7 +206,7 @@ const Faqs = () => {
             </div>
           }
         />
-        <FaqEntry
+        {/* <FaqEntry
           id="planning"
           title="I want to be a part of the NCMF planning team, what do you look for?"
           content={
@@ -222,7 +222,7 @@ const Faqs = () => {
               to be a part of the festival planning team.
             </p>
           }
-        />
+        /> */}
       </div>
     </div>
   );

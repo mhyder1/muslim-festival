@@ -7,16 +7,11 @@ const Volunteers = () => {
           class="page-title"
           style={{ fontFamily: "DIN Neuzeit Grotesk LT W01 BdCn" }}
         >
-          Volunteer
+          Volunteer With Us
         </h1>
-        <p>
-          Volunteers are essential to the success of the NC Muslim Festival. We
-          seek students and adults who can commit to helping to make sure the
-          festival runs smoothly and efficiently. Take a moment to review the
-          various ways you can assist with the festival. Volunteer training will
-          be required. Additional information for training will be provided as
-          we get closer to the event. Register to volunteer TODAY!
-        </p>
+        <p>Be part of the 2027 NC Muslim Festival and help make a difference! Volunteering is a great way to give back, earn good deeds, serve the community, and demonstrate the spirit of unity.</p>
+        <p>We are seeking positive, reliable, and committed volunteers who are ready to help on the day of the festival. Please register only if you are serious about fulfilling your volunteer commitment.</p>
+        <p class="align-left">Students (age 16+) and able-bodied men are especially encouraged to volunteer. Your time and support truly make a difference!</p>
         <a
           href="https://form.jotform.com/222664757551160"
           target="_blank"
@@ -25,7 +20,7 @@ const Volunteers = () => {
           Volunteer
         </a>
         <div style={{ display: "flex", justifyContent: "center", margin: '2rem 0' }}>
-          <img src={vol_1} alt="2023 volunteers" style={{width: '75%'}}/>
+          <img src={vol_1} alt="2023 volunteers" style={{ width: '75%' }} />
         </div>
       </div>
     </div>

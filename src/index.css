@@ -10,6 +10,13 @@
   color: rgb(38, 100, 69);
 }
 
+.page-subtitle {
+  font-family: "DIN Neuzeit Grotesk LT W01 BdCn";
+  font-size: 30px;
+  font-weight: normal;
+  color: rgb(38, 100, 69);
+}
+
 .sponsors-btn {
   margin-top: 16px;
   text-transform: uppercase;

@@ -17,7 +17,10 @@ const Vendors = () => {
         >
           Vendors
         </h1>
-        <h3>Become a Vendor at the 2027 NC Muslim Festival!</h3>
+        <h3
+          class="page-subtitle"
+          style={{ fontFamily: "DIN Neuzeit Grotesk LT W01 BdCn" }}>
+          Become a Vendor at the 2027 NC Muslim Festival!</h3>
         <p class="page-text">We're excited to welcome vendors to the 2027 NC Muslim Festival! Showcase your business, connect with our growing community, and be part of an unforgettable celebration of diversity and unity.</p>
         <p class="page-text align-left">Please select the vendor registration that best matches the products or services you offer.</p>
         <p class="page-text align-left"><span style={{ fontWeight: 'bold' }}>Early Bird Registration:</span> Ends October 15, 2026</p>
@@ -92,7 +95,7 @@ const Vendors = () => {
             </a>
             {/* <span class="text-danger sold-out">SOLD OUT</span> */}
           </li>
-        </ul> 
+        </ul>
         <div
           style={{
             display: "flex",
@@ -119,7 +122,7 @@ const Vendors = () => {
             alt="vendor 3"
             style={{ width: "30%" }}
             class="zoom"
-          /> 
+          />
         </div>
       </div>
     </div>
