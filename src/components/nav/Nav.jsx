@@ -4,7 +4,7 @@ const Nav = () => {
   const menuItems = [
     { text: "About", url: "/about" },
     { text: "Vendors", url: "/vendors" },
-    { text: "Sponsors", url: "/sponsors" },
+    { text: "Sponsors", url: "/sponsors/#2027" },
     { text: "Volunteers", url: "/volunteers" },
     // { text: "Contact", url: "/contact" },
     // { text: "Adhan Contest", url: "/contest" },
@@ -23,19 +23,19 @@ const Nav = () => {
         </Link>
         <ul class="dropdown-menu">
           <li>
-            <Link class="dropdown-item" href={item.url}>
+            <a class="dropdown-item" href={item.url}>
               2027
-            </Link>
+            </a>
           </li>
           <li>
-            <Link class="dropdown-item" href="/sponsors/#2025">
+            <a class="dropdown-item" href="#2025">
               2025
-            </Link>
+            </a>
           </li>
           <li>
-            <Link class="dropdown-item" href="/sponsors/#2023">
+            <a class="dropdown-item" href="#2023">
               2023
-            </Link>
+            </a>
           </li>
         </ul>
       </li>

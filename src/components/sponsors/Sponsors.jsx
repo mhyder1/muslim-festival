@@ -28,23 +28,12 @@ import sponsor_15 from "../../assets/carousel/sponsors/sponsor_15.jpg";
 import sponsor_16 from "../../assets/carousel/sponsors/sponsor_16.png";
 import sponsor_17 from "../../assets/carousel/sponsors/sponsor_17.png";
 import sponsor_18 from "../../assets/carousel/sponsors/sponsor_18.png";
-import { useEffect } from "preact/hooks";
 import { useDeadline } from "../../hooks/useDeadline";
 const Sponsors = () => {
   const { date } = useDeadline();
-  useEffect(() => {
-    const hash = window.location.hash;
-    if (hash) {
-      setTimeout(() => {
-        const element = document.getElementById(hash.substring(1));
-        if (element) element.scrollIntoView({ behavior: "smooth" });
-      }, 200);
-    } else {
-      window.scrollTo(0, 0);
-    }
-  }, [window.location.hash]);
+
   return (
-    <div class="page container page-flex">
+    <div class="page container page-flex" id="2027">
       <div class="page-container ">
         <h1 class="page-title">Sponsors</h1>
         <h3>Become a 2027 NC Muslim Festival Sponsor!</h3>
@@ -78,7 +67,7 @@ const Sponsors = () => {
           >
             2025 Sponsors
           </h2>
-          <div class="d-flex justify-content-between flex-wrap gap-5" style={{borderBottom: '1px solid black', marginBottom: '2rem', paddingBottom: '2rem'}}>
+          <div class="d-flex justify-content-between flex-wrap gap-5" style={{ borderBottom: '1px solid black', marginBottom: '2rem', paddingBottom: '2rem' }}>
             <img class="logo" src={sponsor_1} alt="sponsor_1" />
             <img class="logo" src={sponsor_2} alt="sponsor_2" />
             <img class="logo" src={sponsor_3} alt="sponsor_3" />
