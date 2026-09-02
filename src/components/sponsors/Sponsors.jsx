@@ -1,4 +1,5 @@
-import sponsor_1 from "../../assets/sponsor_1.jpg";
+import sponsor_shirt from "../../assets/sponsor_1.jpg";
+import sponsor_board from "../../assets/sponsor_3.jpg";
 import lion from "../../assets/logos/lion.png";
 import build from "../../assets/logos/build.jpg";
 import caesar from "../../assets/logos/caesar.png";
@@ -8,6 +9,25 @@ import psa from "../../assets/logos/psa.jpg";
 import roots from "../../assets/logos/roots.jpg";
 import saffron from "../../assets/logos/saffron.png";
 import shine from "../../assets/logos/shine.jpg";
+// 2025 sponsors
+import sponsor_1 from "../../assets/carousel/sponsors/sponsor_1.jpg";
+import sponsor_2 from "../../assets/carousel/sponsors/sponsor_2.jpg";
+import sponsor_3 from "../../assets/carousel/sponsors/sponsor_3.png";
+import sponsor_4 from "../../assets/carousel/sponsors/sponsor_4.png";
+import sponsor_5 from "../../assets/carousel/sponsors/sponsor_5.jpg";
+import sponsor_6 from "../../assets/carousel/sponsors/sponsor_6.jpg";
+import sponsor_7 from "../../assets/carousel/sponsors/sponsor_7.jpg";
+import sponsor_8 from "../../assets/carousel/sponsors/sponsor_8.jpg";
+import sponsor_9 from "../../assets/carousel/sponsors/sponsor_9.jpg";
+import sponsor_10 from "../../assets/carousel/sponsors/sponsor_10.png";
+import sponsor_11 from "../../assets/carousel/sponsors/sponsor_11.jpg";
+import sponsor_12 from "../../assets/carousel/sponsors/sponsor_12.png";
+import sponsor_13 from "../../assets/carousel/sponsors/sponsor_13.jpg";
+import sponsor_14 from "../../assets/carousel/sponsors/sponsor_14.jpg";
+import sponsor_15 from "../../assets/carousel/sponsors/sponsor_15.jpg";
+import sponsor_16 from "../../assets/carousel/sponsors/sponsor_16.png";
+import sponsor_17 from "../../assets/carousel/sponsors/sponsor_17.png";
+import sponsor_18 from "../../assets/carousel/sponsors/sponsor_18.png";
 import { useEffect } from "preact/hooks";
 import { useDeadline } from "../../hooks/useDeadline";
 const Sponsors = () => {
@@ -27,14 +47,11 @@ const Sponsors = () => {
     <div class="page container page-flex">
       <div class="page-container ">
         <h1 class="page-title">Sponsors</h1>
+        <h3>Become a 2027 NC Muslim Festival Sponsor!</h3>
         <p class="page-text">
-          We seek individuals and businesses that are interested in becoming
-          official sponsors for our event. Being an NC Muslim Festival sponsor
-          is a mutual benefit for our local community as well as businesses in
-          the area. Your support enables the North Carolina Muslim Festival
-          (NCMF) to stay free, sustainable, and relevant. Click the button below
-          and fill out the application by the deadline {date}.
+          We invite businesses and organizations to partner with us as an official 2027 NC Muslim Festival Sponsor. Your support helps keep the festival free, sustainable, and accessible to the community while providing valuable exposure for your business or organization.
         </p>
+        <p class="page-text align-left">Click the button below to learn more and submit your sponsorship application by <span style={{ fontWeight: 'bold' }}>December 31, 2026</span>.</p>
 
         <a
           href="https://form.jotform.com/222680687203154"
@@ -50,9 +67,38 @@ const Sponsors = () => {
             margin: "2rem 0",
           }}
         >
-          <img src={sponsor_1} alt="2023 sponsor 1" style={{ width: "75%" }} />
+          <img src={sponsor_shirt} alt="2023 sponsor 1" style={{ width: "75%" }} />
+          <img src={sponsor_board} alt="2025 sponsor 3" style={{ width: "75%" }} />
         </div>
         <hr style={{ width: "100%" }} />
+        <section id="2025">
+          <h2
+            class="page-title"
+            style={{ textAlign: "center", marginBottom: "2rem" }}
+          >
+            2025 Sponsors
+          </h2>
+          <div class="d-flex justify-content-between flex-wrap gap-5" style={{borderBottom: '1px solid black', marginBottom: '2rem', paddingBottom: '2rem'}}>
+            <img class="logo" src={sponsor_1} alt="sponsor_1" />
+            <img class="logo" src={sponsor_2} alt="sponsor_2" />
+            <img class="logo" src={sponsor_3} alt="sponsor_3" />
+            <img class="logo" src={sponsor_4} alt="sponsor_4" />
+            <img class="logo" src={sponsor_5} alt="sponsor_5" />
+            <img class="logo" src={sponsor_6} alt="sponsor_6" />
+            <img class="logo" src={sponsor_7} alt="sponsor_7" />
+            <img class="logo" src={sponsor_8} alt="sponsor_8" />
+            <img class="logo" src={sponsor_9} alt="sponsor_9" />
+            <img class="logo" src={sponsor_10} alt="sponsor_10" />
+            <img class="logo" src={sponsor_11} alt="sponsor_11" />
+            <img class="logo" src={sponsor_12} alt="sponsor_12" />
+            <img class="logo" src={sponsor_13} alt="sponsor_13" />
+            <img class="logo" src={sponsor_14} alt="sponsor_14" />
+            <img class="logo" src={sponsor_15} alt="sponsor_15" />
+            <img class="logo" src={sponsor_16} alt="sponsor_16" />
+            <img class="logo" src={sponsor_17} alt="sponsor_17" />
+            <img class="logo" src={sponsor_18} alt="sponsor_18" />
+          </div>
+        </section>
         <section id="2023">
           <h2
             class="page-title"
