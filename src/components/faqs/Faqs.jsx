@@ -169,11 +169,18 @@ const Faqs = () => {
                 parking decks below. They are all located across from the park.
               </p>
               <ul>
-                <li>
-                  Bellemeade Street Deck | 200 N. Greene St. | Greensboro, NC
-                </li>
                 <li>Church Street Deck | 215 N. Church St. | Greensboro, NC</li>
-                <li>Davie Street Deck | 109 E. Market St. | Greensboro, NC</li>
+                <li>February One Parking Deck | 110 S. Davie Street | Greensboro, NC</li>
+                <li>Greene Street Parking Deck | 211 S. Greene St. | Greensboro, NC</li>
+                <li>
+                  <a
+                    href="https://www.greensboro-nc.gov/departments/transportation/parking/downtown-parking"
+                    target="_blank"
+                    class="link-color"
+                  >
+                    Click here for more information on Greensboro Downtown Parking
+                  </a>
+                </li>
               </ul>
             </div>
           }

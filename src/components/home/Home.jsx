@@ -26,19 +26,19 @@ const Home = () => {
         <p>
           <strong>Saleema Abdullah</strong>
         </p>
-      </Section>
+      </Section>*/}
       <Section
         img={entertainment}
         imgClass="col-lg-6 order-lg-2"
         txtClass="col-lg-6 order-lg-1"
-        title="2025 NCMF Emcee"
+        title="2027 NCMF Emcee"
       >
         <p>
           <strong>Wafeeq Zarif</strong>
           <br />
           NC-based comedian | The Muslim News Guy
           <br />
-          <a href="https://www.facebook.com/@wafeeq.zarif" target="_blank">
+          <a href="https://www.facebook.com/profile.php?id=61589999117345" target="_blank">
             <i
               class="bi bi-facebook entertainment-social-media"
               style={{ color: "#1877F2" }}
@@ -57,8 +57,8 @@ const Home = () => {
             ></i>
           </a>
         </p>
-      </Section>*/}
-      <Section
+      </Section>
+      {/*<Section
         title="Our Proud 2025 Sponsors"
         img={sponsor_2}
         imgClass="col-lg-6"
