@@ -60,11 +60,11 @@ const Vendors = () => {
             <a
               href="https://form.jotform.com/222685597504163"
               target="_blank"
-              class="btn btn-primary btn-sm rounded-pill mt-5"
+              class="btn btn-primary btn-sm rounded-pill mt-5 disabled"
             >
               Food Table
             </a>
-            {/* <span class="text-danger sold-out">SOLD OUT</span> */}
+            <span class="text-danger sold-out">SOLD OUT</span>
           </li>
           <li>
             <a
