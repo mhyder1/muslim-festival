@@ -62,11 +62,11 @@ const Faqs = () => {
             hotels near the park?
           </a>
         </li>
-        {/* <li>
-          <a class="link-color" href="#planning">
-            I want to be a part of the NCMF planning team, what do you look for?
+        <li>
+          <a class="link-color" href="#discount">
+            I am a non-profit organization. Can I be a vendor for free or at a  discount?
           </a>
-        </li> */}
+        </li>
       </ol>
       <div>
         <FaqEntry
@@ -211,6 +211,15 @@ const Faqs = () => {
                 </li>
               </ul>
             </div>
+          }
+        />
+        <FaqEntry
+          id="discount"
+          title="I am a non-profit organization. Can I be a vendor for free or at a  discount?"
+          content={
+            <p>
+              The organization that hosts this FREE community event is also a nonprofit, and we actively seek financial support to help cover event expenses and keep admission free and accessible to everyone. For this reason, we are unable to offer discounted or complimentary vendor spaces.
+            </p>
           }
         />
         {/* <FaqEntry
