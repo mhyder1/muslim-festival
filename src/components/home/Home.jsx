@@ -36,7 +36,7 @@ const Home = () => {
         <p>
           <strong>Wafeeq Zarif</strong>
           <br />
-          NC-based comedian | The Muslim News Guy
+          NC-Based Stand-Up Comedian | The Muslim News Guy
           <br />
           <a href="https://www.facebook.com/profile.php?id=61589999117345" target="_blank">
             <i
