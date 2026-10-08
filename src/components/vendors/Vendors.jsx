@@ -27,7 +27,7 @@ const Vendors = () => {
         <p class="page-text align-left"><span style={{ fontWeight: 'bold' }}>Regular Registration:</span> Ends December 31, 2026</p>
 
         <p class="page-text align-left">Vendor spaces are limited, so register early to secure your spot!</p>
-        <p class="page-text align-left text-danger" style={{marginTop: "10px", fontSize: "14px"}}>*Dessert, Shawarma/Kabobs, and Icee food carts are full. Food trucks with Halal American Food are welcome to apply.</p>
+        <p class="page-text align-left text-danger" style={{marginTop: "10px", fontSize: "14px", display: 'none'}}>*Dessert, Shawarma/Kabobs, and Icee food carts are full. Food trucks with Halal American Food are welcome to apply.</p>
         {/* <p class="page-text">
           Sorry, vendor registration for the 2025 NC Muslim festival is closed.
           See you at the next open registration! Check back here for a list of
