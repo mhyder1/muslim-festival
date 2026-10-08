@@ -67,34 +67,35 @@ const Vendors = () => {
             </a>
             <span class="text-danger sold-out">SOLD OUT</span>
           </li>
-          <li>
+          <li style={{ position: "relative" }}>
             <a
               href="https://form.jotform.com/222684634140150"
               target="_blank"
-              class="btn btn-primary btn-sm rounded-pill mt-5"
+              class="btn btn-primary btn-sm rounded-pill mt-5 disabled"
             >
               Food Truck
             </a>
+            <span class="text-danger sold-out">SOLD OUT</span>
           </li>
           <li style={{ position: "relative" }}>
             <a
               href="https://form.jotform.com/222684960721157"
               target="_blank"
-              class="btn btn-primary btn-sm rounded-pill mt-5"
+              class="btn btn-primary btn-sm rounded-pill mt-5 disabled"
             >
               Merchandise
             </a>
-            {/* <span class="text-danger sold-out">SOLD OUT</span> */}
+            <span class="text-danger sold-out">SOLD OUT</span>
           </li>
           <li style={{ position: "relative" }}>
             <a
               href="https://form.jotform.com/240618023385150"
               target="_blank"
-              class="btn btn-primary btn-sm rounded-pill mt-5"
+              class="btn btn-primary btn-sm rounded-pill mt-5 disabled"
             >
               Information/Exhibitors (no products to sell)
             </a>
-            {/* <span class="text-danger sold-out">SOLD OUT</span> */}
+            <span class="text-danger sold-out">SOLD OUT</span>
           </li>
         </ul>
         <div
